@@ -46,9 +46,9 @@ class App extends Component {
       key: '1W7b-D6fTvRjs5n3tBx_MQ2Q8WeeK5Kt2IyNwzFdO8tM',
       callback: googleData => {
         let futureTalks = googleData.filter((item) => {
-          let scheduledDate = parseDate(item["Date"]);
-          let now = new Date();
-          return now <= scheduledDate;
+          let scheduledDate = parseDate(item["Date"])
+          let now = new Date()
+          return now <= scheduledDate && item["Topic"].length > 0 && item["Speaker (slack handle)"].length > 0
         })
         this.setState({
           schedule: futureTalks
