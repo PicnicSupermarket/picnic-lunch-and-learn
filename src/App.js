@@ -28,6 +28,15 @@ const Paragraph = styled.p`
   padding: 0px;
 `;
 
+const List = styled.ol`
+  margin: 8px 0px 0px 32px;
+  padding: 0px;
+`;
+
+const ListItem = styled.li`
+  line-height: 28px;
+`;
+
 function parseDate(date) {
   var parts = date.split("-");
   return new Date(parseInt(parts[2], 10), parseInt(parts[1], 10) - 1, parseInt(parts[0], 10));
@@ -92,6 +101,23 @@ class App extends Component {
                  )
                })
             }
+            <Header>
+              Sign up as a speaker
+            </Header>
+            <List>
+              <ListItem>
+                Open <a href="https://docs.google.com/spreadsheets/d/1W7b-D6fTvRjs5n3tBx_MQ2Q8WeeK5Kt2IyNwzFdO8tM/edit#gid=0" target="_blank" rel="noopener noreferrer">the schedule</a>
+              </ListItem>
+              <ListItem>
+                Pick a free date
+              </ListItem>
+              <ListItem>
+                Add your name
+              </ListItem>
+              <ListItem>
+                Add the topic
+              </ListItem>
+            </List>
             <Header>
               Concrete examples of talks
             </Header>
