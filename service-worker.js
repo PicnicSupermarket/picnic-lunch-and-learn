@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/picnic-lunch-and-learn/precache-manifest.cba7cb78b5b9dbf7095c627fe7b22e8e.js"
+  "/picnic-lunch-and-learn/precache-manifest.a0c9e23186e61474cc00a81300fe9e4b.js"
 );
 
 workbox.clientsClaim();
