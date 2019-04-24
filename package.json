@@ -7,7 +7,10 @@
     "picnic-react-mise-en-place": "^0.0.29",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
+    "react-router-dom": "^5.0.0",
     "react-scripts": "2.1.8",
+    "remark": "^10.0.1",
+    "remark-react": "^5.0.1",
     "styled-components": "^4.2.0",
     "tabletop": "^1.5.2",
     "typeface-roboto": "^0.0.54"
