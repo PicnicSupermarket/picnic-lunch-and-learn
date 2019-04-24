@@ -32,5 +32,8 @@
     "not ie <= 11",
     "not op_mini all"
   ],
-  "homepage": "https://PicnicSupermarket.github.io/picnic-lunch-and-learn"
+  "homepage": "https://PicnicSupermarket.github.io/picnic-lunch-and-learn",
+  "devDependencies": {
+    "prettier": "1.17.0"
+  }
 }

@@ -1,9 +1,9 @@
 import React from "react";
 import logoImage from "../../images/logo@2x.png";
-import styled from 'styled-components';
+import styled from "styled-components";
 import { media } from "./Device";
 
-const TopHeaderStyle = styled.div`  
+const TopHeaderStyle = styled.div`
   width: 100%;
   max-width: 960px;
   height: 80px;
@@ -11,7 +11,7 @@ const TopHeaderStyle = styled.div`
   margin: 0 auto;
 `;
 
-const LogoStyle = styled.div` 
+const LogoStyle = styled.div`
   width: 100%;
   width: 80px;
   height: 80px;
@@ -47,7 +47,7 @@ export class TopHeader extends React.Component {
     return (
       <div>
         <TopHeaderStyle>
-        <LogoStyle style={logoStyle} />
+          <LogoStyle style={logoStyle} />
         </TopHeaderStyle>
       </div>
     );

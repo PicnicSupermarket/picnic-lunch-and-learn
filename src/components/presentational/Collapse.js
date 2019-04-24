@@ -15,25 +15,25 @@ export class Collapse extends React.Component {
     return (
       <div className="CollapsibleItems">
         <ul>
-            {this.props.items.map((item, i) => {
+          {this.props.items.map((item, i) => {
             return (
-                <li
+              <li
                 key={`item-${i}`}
                 className={`item-${i} ${this.state.expandedItem === i &&
-                    "open"}`}
+                  "open"}`}
                 onClick={() => {
-                    if (this.state.expandedItem === i) {
+                  if (this.state.expandedItem === i) {
                     this.setState({ expandedItem: null });
-                    } else {
+                  } else {
                     this.setState({ expandedItem: i });
-                    }
+                  }
                 }}
-                >
+              >
                 <h4 className="headingItem">{item.heading}</h4>
                 <p className="expansionItem">{item.expansion}</p>
-                </li>
+              </li>
             );
-            })}
+          })}
         </ul>
       </div>
     );

@@ -1,20 +1,20 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 
 import "typeface-roboto";
-import './App.css';
+import "./App.css";
 
 import { Wrapper } from "picnic-react-mise-en-place";
 import { ImageBanner } from "picnic-react-mise-en-place";
 import { SolidBanner } from "picnic-react-mise-en-place";
 
-import { Footer } from "./components/presentational/Footer"
-import { Paragraph } from "./components/presentational/Paragraph"
-import ScrollToTop from "./components/presentational/ScrollToTop"
-import { TopHeader } from "./components/presentational/TopHeader"
+import { Footer } from "./components/presentational/Footer";
+import { Paragraph } from "./components/presentational/Paragraph";
+import ScrollToTop from "./components/presentational/ScrollToTop";
+import { TopHeader } from "./components/presentational/TopHeader";
 
-import { Home } from "./pages/Home"
-import { Notes } from "./pages/Notes"
+import { Home } from "./pages/Home";
+import { Notes } from "./pages/Notes";
 
 import imageBanner from "./images/banner.jpg";
 
@@ -34,9 +34,7 @@ class App extends Component {
             </ScrollToTop>
           </Router>
         </Wrapper>
-        <Paragraph>
-          &nbsp;
-        </Paragraph>
+        <Paragraph>&nbsp;</Paragraph>
         <SolidBanner height="526px" background="#333333">
           <Wrapper>
             <Footer />
