@@ -27,7 +27,7 @@ class App extends Component {
         </nav>
         <ImageBanner image={imageBanner} height="344px" />
         <Wrapper>
-          <Router basename={process.env.PUBLIC_URL}>
+          <Router>
             <ScrollToTop>
               <Route exact path="/" component={Home} />
               <Route path="/notes/:id" component={Notes} />
