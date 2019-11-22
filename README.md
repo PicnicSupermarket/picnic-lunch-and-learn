@@ -2,7 +2,7 @@
 
 ## Live Website
 
-The Lunch & Learn website is available at [picnic.tech/picnic-lunch-and-learn][live-url].
+The Lunch & Learn website is available at [picnic.tech/picnic-lunch-and-learn][ll-website].
 
 ## Contribute
 
@@ -14,4 +14,4 @@ To deploy your changes, run:
 
 `yarn run deploy`
 
-[live-url]: https://picnic.tech/picnic-lunch-and-learn/
+[ll-website]: https://picnic.tech/picnic-lunch-and-learn/
