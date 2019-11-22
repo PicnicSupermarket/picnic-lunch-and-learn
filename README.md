@@ -1,8 +1,8 @@
 # Lunch and Learn website
 
-## Live Site
+## Live Website
 
-You can see the Lunch and Learn session schedule [here][live-url].
+The Lunch & Learn website is available at [picnic.tech/picnic-lunch-and-learn][live-url].
 
 ## Contribute
 
