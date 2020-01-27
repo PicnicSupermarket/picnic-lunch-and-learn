@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2a3a6f7e2bc3cd6087f0f025e4b8fe81",
+    "revision": "c6de43caa7b431b8f897b7525507c954",
     "url": "/picnic-lunch-and-learn/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/picnic-lunch-and-learn/static/css/2.0cdbd731.chunk.css"
   },
   {
-    "revision": "12135eb4481ae5664720",
+    "revision": "77e7b0cc111acbed80c9",
     "url": "/picnic-lunch-and-learn/static/css/main.9957cd12.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/picnic-lunch-and-learn/static/js/2.9dfb9fdf.chunk.js.LICENSE"
   },
   {
-    "revision": "12135eb4481ae5664720",
-    "url": "/picnic-lunch-and-learn/static/js/main.af7f0dc1.chunk.js"
+    "revision": "77e7b0cc111acbed80c9",
+    "url": "/picnic-lunch-and-learn/static/js/main.2f42a2c8.chunk.js"
   },
   {
     "revision": "b46b1730c64341f311e8",
@@ -36,8 +36,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/picnic-lunch-and-learn/static/media/13-8-2019.a644b9dc.md"
   },
   {
-    "revision": "2252946672fca8f0ce451ae0c18e49aa",
-    "url": "/picnic-lunch-and-learn/static/media/14-1-2020.22529466.md"
+    "revision": "3948b00967e1ad588b20e896bddf38e5",
+    "url": "/picnic-lunch-and-learn/static/media/14-1-2020.3948b009.md"
   },
   {
     "revision": "e3217baa1f49cce9b0994b94018a7b19",
