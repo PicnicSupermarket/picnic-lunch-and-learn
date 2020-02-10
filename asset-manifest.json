@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/picnic-lunch-and-learn/static/css/main.9957cd12.chunk.css",
-    "main.js": "/picnic-lunch-and-learn/static/js/main.2f42a2c8.chunk.js",
-    "main.js.map": "/picnic-lunch-and-learn/static/js/main.2f42a2c8.chunk.js.map",
+    "main.js": "/picnic-lunch-and-learn/static/js/main.2f9e9711.chunk.js",
+    "main.js.map": "/picnic-lunch-and-learn/static/js/main.2f9e9711.chunk.js.map",
     "runtime-main.js": "/picnic-lunch-and-learn/static/js/runtime-main.0066d1b9.js",
     "runtime-main.js.map": "/picnic-lunch-and-learn/static/js/runtime-main.0066d1b9.js.map",
     "static/css/2.0cdbd731.chunk.css": "/picnic-lunch-and-learn/static/css/2.0cdbd731.chunk.css",
-    "static/js/2.9dfb9fdf.chunk.js": "/picnic-lunch-and-learn/static/js/2.9dfb9fdf.chunk.js",
-    "static/js/2.9dfb9fdf.chunk.js.map": "/picnic-lunch-and-learn/static/js/2.9dfb9fdf.chunk.js.map",
+    "static/js/2.1af01b58.chunk.js": "/picnic-lunch-and-learn/static/js/2.1af01b58.chunk.js",
+    "static/js/2.1af01b58.chunk.js.map": "/picnic-lunch-and-learn/static/js/2.1af01b58.chunk.js.map",
     "index.html": "/picnic-lunch-and-learn/index.html",
-    "precache-manifest.8dc2595a6a2deca08a47ee42ee80e728.js": "/picnic-lunch-and-learn/precache-manifest.8dc2595a6a2deca08a47ee42ee80e728.js",
+    "precache-manifest.0c48ffd58473e03773406f7cd2ec3e5a.js": "/picnic-lunch-and-learn/precache-manifest.0c48ffd58473e03773406f7cd2ec3e5a.js",
     "service-worker.js": "/picnic-lunch-and-learn/service-worker.js",
     "static/css/2.0cdbd731.chunk.css.map": "/picnic-lunch-and-learn/static/css/2.0cdbd731.chunk.css.map",
     "static/css/main.9957cd12.chunk.css.map": "/picnic-lunch-and-learn/static/css/main.9957cd12.chunk.css.map",
-    "static/js/2.9dfb9fdf.chunk.js.LICENSE": "/picnic-lunch-and-learn/static/js/2.9dfb9fdf.chunk.js.LICENSE",
+    "static/js/2.1af01b58.chunk.js.LICENSE": "/picnic-lunch-and-learn/static/js/2.1af01b58.chunk.js.LICENSE",
     "static/media/10-9-2019.md": "/picnic-lunch-and-learn/static/media/10-9-2019.757aa5fa.md",
     "static/media/13-8-2019.md": "/picnic-lunch-and-learn/static/media/13-8-2019.a644b9dc.md",
     "static/media/14-1-2020.md": "/picnic-lunch-and-learn/static/media/14-1-2020.3948b009.md",
@@ -26,6 +26,7 @@
     "static/media/22-10-2019.md": "/picnic-lunch-and-learn/static/media/22-10-2019.89dd5f13.md",
     "static/media/23-4-2019.md": "/picnic-lunch-and-learn/static/media/23-4-2019.7af23969.md",
     "static/media/24-9-2019.md": "/picnic-lunch-and-learn/static/media/24-9-2019.0e41999d.md",
+    "static/media/28-1-2020.md": "/picnic-lunch-and-learn/static/media/28-1-2020.294a8fae.md",
     "static/media/3-12-2019.md": "/picnic-lunch-and-learn/static/media/3-12-2019.508b8f9c.md",
     "static/media/30-7-2019.md": "/picnic-lunch-and-learn/static/media/30-7-2019.70bddf2d.md",
     "static/media/4-6-2019.md": "/picnic-lunch-and-learn/static/media/4-6-2019.b7fbe201.md",
@@ -41,8 +42,8 @@
   "entrypoints": [
     "static/js/runtime-main.0066d1b9.js",
     "static/css/2.0cdbd731.chunk.css",
-    "static/js/2.9dfb9fdf.chunk.js",
+    "static/js/2.1af01b58.chunk.js",
     "static/css/main.9957cd12.chunk.css",
-    "static/js/main.2f42a2c8.chunk.js"
+    "static/js/main.2f9e9711.chunk.js"
   ]
 }
