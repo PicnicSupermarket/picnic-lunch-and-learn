@@ -1,10 +1,10 @@
 self.__precacheManifest = [
   {
-    "revision": "bc833e725c137257c2c42a789845d82f",
-    "url": "/picnic-lunch-and-learn/static/media/roboto-latin-900italic.bc833e72.woff"
+    "revision": "d8bcbe724fd6f4ba44d0ee6a2675890f",
+    "url": "/picnic-lunch-and-learn/static/media/roboto-latin-400italic.d8bcbe72.woff2"
   },
   {
-    "revision": "d6959b33eb1e69e6705f",
+    "revision": "c0c5b9e2b500bb36b351",
     "url": "/picnic-lunch-and-learn/static/css/main.27d9206f.chunk.css"
   },
   {
@@ -60,28 +60,20 @@ self.__precacheManifest = [
     "url": "/picnic-lunch-and-learn/static/media/roboto-latin-100italic.6232f43d.woff2"
   },
   {
-    "revision": "d704bb3d579b7d5e40880c75705c8a71",
-    "url": "/picnic-lunch-and-learn/static/media/roboto-latin-100italic.d704bb3d.woff"
-  },
-  {
     "revision": "a1471d1d6431c893582a5f6a250db3f9",
     "url": "/picnic-lunch-and-learn/static/media/roboto-latin-300.a1471d1d.woff"
-  },
-  {
-    "revision": "9680d5a0c32d2fd084e07bbc4c8b2923",
-    "url": "/picnic-lunch-and-learn/static/media/roboto-latin-400italic.9680d5a0.woff"
-  },
-  {
-    "revision": "d69924b98acd849cdeba9fbff3f88ea6",
-    "url": "/picnic-lunch-and-learn/static/media/roboto-latin-300italic.d69924b9.woff2"
   },
   {
     "revision": "210a7c781f5a354a0e4985656ab456d9",
     "url": "/picnic-lunch-and-learn/static/media/roboto-latin-300italic.210a7c78.woff"
   },
   {
-    "revision": "510dec37fa69fba39593e01a469ee018",
-    "url": "/picnic-lunch-and-learn/static/media/roboto-latin-500italic.510dec37.woff2"
+    "revision": "d704bb3d579b7d5e40880c75705c8a71",
+    "url": "/picnic-lunch-and-learn/static/media/roboto-latin-100italic.d704bb3d.woff"
+  },
+  {
+    "revision": "d69924b98acd849cdeba9fbff3f88ea6",
+    "url": "/picnic-lunch-and-learn/static/media/roboto-latin-300italic.d69924b9.woff2"
   },
   {
     "revision": "de8b7431b74642e830af4d4f4b513ec9",
@@ -96,12 +88,12 @@ self.__precacheManifest = [
     "url": "/picnic-lunch-and-learn/static/media/roboto-latin-700.cf6613d1.woff"
   },
   {
-    "revision": "d8bcbe724fd6f4ba44d0ee6a2675890f",
-    "url": "/picnic-lunch-and-learn/static/media/roboto-latin-400italic.d8bcbe72.woff2"
+    "revision": "510dec37fa69fba39593e01a469ee018",
+    "url": "/picnic-lunch-and-learn/static/media/roboto-latin-500italic.510dec37.woff2"
   },
   {
-    "revision": "7b770d6c53423deb1a8e49d3c9175184",
-    "url": "/picnic-lunch-and-learn/static/media/roboto-latin-900italic.7b770d6c.woff2"
+    "revision": "010c1aeee3c6d1cbb1d5761d80353823",
+    "url": "/picnic-lunch-and-learn/static/media/roboto-latin-700italic.010c1aee.woff2"
   },
   {
     "revision": "846d1890aee87fde5d8ced8eba360c3a",
@@ -112,12 +104,20 @@ self.__precacheManifest = [
     "url": "/picnic-lunch-and-learn/static/media/roboto-latin-900.8c2ade50.woff"
   },
   {
-    "revision": "010c1aeee3c6d1cbb1d5761d80353823",
-    "url": "/picnic-lunch-and-learn/static/media/roboto-latin-700italic.010c1aee.woff2"
+    "revision": "7b770d6c53423deb1a8e49d3c9175184",
+    "url": "/picnic-lunch-and-learn/static/media/roboto-latin-900italic.7b770d6c.woff2"
   },
   {
-    "revision": "d6959b33eb1e69e6705f",
-    "url": "/picnic-lunch-and-learn/static/js/main.ba5b4577.chunk.js"
+    "revision": "bc833e725c137257c2c42a789845d82f",
+    "url": "/picnic-lunch-and-learn/static/media/roboto-latin-900italic.bc833e72.woff"
+  },
+  {
+    "revision": "9680d5a0c32d2fd084e07bbc4c8b2923",
+    "url": "/picnic-lunch-and-learn/static/media/roboto-latin-400italic.9680d5a0.woff"
+  },
+  {
+    "revision": "c0c5b9e2b500bb36b351",
+    "url": "/picnic-lunch-and-learn/static/js/main.ad566fed.chunk.js"
   },
   {
     "revision": "bafb105baeb22d965c70fe52ba6b49d9",
@@ -148,10 +148,6 @@ self.__precacheManifest = [
     "url": "/picnic-lunch-and-learn/static/media/14-1-2020.3948b009.md"
   },
   {
-    "revision": "e4540fef9266ba6c2d9e46649dbcd661",
-    "url": "/picnic-lunch-and-learn/static/media/15-6-2020.e4540fef.md"
-  },
-  {
     "revision": "e3217baa1f49cce9b0994b94018a7b19",
     "url": "/picnic-lunch-and-learn/static/media/16-7-2019.e3217baa.md"
   },
@@ -166,6 +162,10 @@ self.__precacheManifest = [
   {
     "revision": "33b1e24adab030f06ca211747bd10b71",
     "url": "/picnic-lunch-and-learn/static/media/19-5-2020.33b1e24a.md"
+  },
+  {
+    "revision": "e4540fef9266ba6c2d9e46649dbcd661",
+    "url": "/picnic-lunch-and-learn/static/media/2-6-2020.e4540fef.md"
   },
   {
     "revision": "628f6a0c468d7d48578334e5a8bfae99",
@@ -228,7 +228,7 @@ self.__precacheManifest = [
     "url": "/picnic-lunch-and-learn/static/css/2.4c540e95.chunk.css"
   },
   {
-    "revision": "4f4c375e2051ed22f2efd672c9a97a6a",
+    "revision": "c55ff5f0568cee945435dcafd73e4e60",
     "url": "/picnic-lunch-and-learn/index.html"
   }
 ];
