@@ -22,7 +22,7 @@ export class Footer extends React.Component {
       <FooterStyle>
         <FooterHeader>Questions about Lunch and Learn?</FooterHeader>
         <FooterParagraph>
-          Contact Robert Carosi or Ernir Þorsteinsson.
+          Contact Cyril Serebrennikov.
         </FooterParagraph>
       </FooterStyle>
     );
