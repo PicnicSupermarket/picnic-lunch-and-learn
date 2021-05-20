@@ -22,7 +22,16 @@ export class Footer extends React.Component {
       <FooterStyle>
         <FooterHeader>Questions about Lunch and Learn?</FooterHeader>
         <FooterParagraph>
-          Contact Cyril Serebrennikov.
+            Contact Cyril Serebrennikov or ask in{" "}
+            <a
+                style={{color: "#ffffff"}}
+                href="https://teampicnic.slack.com/archives/C020HSZ01PA"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                #tech-academy-lunch-learn
+            </a>
+            .
         </FooterParagraph>
       </FooterStyle>
     );
