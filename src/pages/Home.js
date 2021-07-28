@@ -2,12 +2,13 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 
 import styled from "styled-components";
-import Tabletop from "tabletop";
+import dateformat from "dateformat"
 
 import { Row, Col } from "picnic-react-mise-en-place";
 
 import { Collapse } from "../components/presentational/Collapse";
 import { Paragraph } from "../components/presentational/Paragraph";
+import SimpleDateTime  from "react-simple-timestamp-to-date";
 
 const Header = styled.h2`
   font-size: 28px;
@@ -25,13 +26,10 @@ const ListItem = styled.li`
   line-height: 28px;
 `;
 
-function parseDate(date) {
-  var parts = date.split("-");
-  return new Date(
-    parseInt(parts[2], 10),
-    parseInt(parts[1], 10) - 1,
-    parseInt(parts[0], 10)
-  );
+function formatDate(dateStr) {
+    let date = new Date(dateStr);
+    console.log(dateformat(date, "dd-mm-yyyy"));
+    return dateformat(date, "d-m-yyyy");
 }
 
 function loadFile(name) {
@@ -51,34 +49,32 @@ export class Home extends Component {
   }
 
   componentDidMount() {
-    Tabletop.init({
-      key: "1W7b-D6fTvRjs5n3tBx_MQ2Q8WeeK5Kt2IyNwzFdO8tM",
-      callback: googleData => {
-        let futureTalks = googleData.filter(item => {
-          let scheduledDate = parseDate(item["Date"]);
-          let now = new Date();
-          return (
-            now <= scheduledDate &&
-            item["Topic"].length > 0 &&
-            item["Speaker (slack handle)"].length > 0
-          );
-        });
-        let finishedTalks = googleData.filter(item => {
-          let scheduledDate = parseDate(item["Date"]);
-          let now = new Date();
-          return (
-            now > scheduledDate &&
-            item["Topic"].length > 0 &&
-            item["Speaker (slack handle)"].length > 0
-          );
-        });
-        this.setState({
-          schedule: futureTalks,
-          finishedTalks: finishedTalks
-        });
-      },
-      simpleSheet: true
-    });
+      fetch("https://script.google.com/macros/s/AKfycbykE2x-FwEGILMH_Lft_bf5xdPBQETx8VyXLnaS5hCtiHiqUEbni9cYwKxFvF0tjH0k/exec")
+          .then(res => res.json())
+          .then(res => {
+              let futureTalks = res.filter(item => {
+                  let scheduledDate = new Date(item["Date"]);
+                  let now = new Date();
+                  return (
+                      now <= scheduledDate &&
+                      item["Topic"].length > 0 &&
+                      item["Speaker (slack handle)"].length > 0
+                  );
+              });
+              let finishedTalks = res.filter(item => {
+                  let scheduledDate = new Date(item["Date"]);
+                  let now = new Date();
+                  return (
+                      now > scheduledDate &&
+                      item["Topic"].length > 0 &&
+                      item["Speaker (slack handle)"].length > 0
+                  );
+              });
+              this.setState({
+                  schedule: futureTalks,
+                  finishedTalks: finishedTalks
+              });
+          })
   }
 
   render() {
@@ -117,7 +113,7 @@ export class Home extends Component {
                   lineHeight: "40px"
                 }}
               >
-                <Col span="2">{item["Date"]}</Col>
+                <Col span="2"><SimpleDateTime dateSeparator="-" showTime="0">{item["Date"]}</SimpleDateTime></Col>
                 <Col span="3">{item["Speaker (slack handle)"]}</Col>
                 <Col span="7">{item["Topic"]}</Col>
               </Row>
@@ -153,7 +149,8 @@ export class Home extends Component {
           </Row>
         ) : (
           this.state.finishedTalks.map((item, i) => {
-            let notesFile = loadFile(item["Date"]);
+              let talkDate = formatDate(item["Date"]);
+              let notesFile = loadFile(talkDate);
             return (
               <Row
                 key={`item-${i}`}
@@ -163,12 +160,12 @@ export class Home extends Component {
                   lineHeight: "40px"
                 }}
               >
-                <Col span="2">{item["Date"]}</Col>
+                <Col span="2"><SimpleDateTime dateSeparator="-" showTime="0">{item["Date"]}</SimpleDateTime></Col>
                 <Col span="3">{item["Speaker (slack handle)"]}</Col>
                 <Col span="6">{item["Topic"]}</Col>
                 <Col span="1">
                   {notesFile ? (
-                    <Link to={`/notes/${item["Date"]}`}>Notes</Link>
+                    <Link to={`/notes/${talkDate}`}>Notes</Link>
                   ) : (
                     ""
                   )}

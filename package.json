@@ -3,16 +3,17 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "dateformat": "^4.5.1",
     "gh-pages": "^2.0.1",
     "picnic-react-mise-en-place": "^0.0.29",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-router-dom": "^5.0.0",
     "react-scripts": "2.1.8",
+    "react-simple-timestamp-to-date": "^1.0.3",
     "remark": "^10.0.1",
     "remark-react": "^5.0.1",
     "styled-components": "^4.2.0",
-    "tabletop": "^1.6.2",
     "typeface-roboto": "^0.0.54"
   },
   "scripts": {
