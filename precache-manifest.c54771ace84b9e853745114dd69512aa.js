@@ -1,23 +1,23 @@
 self.__precacheManifest = [
   {
-    "revision": "b4e43de36ecb20da22fd",
+    "revision": "c15e77465f433f2e6785",
     "url": "/picnic-lunch-and-learn/static/css/main.26aa741f.chunk.css"
   },
   {
-    "revision": "b4e43de36ecb20da22fd",
-    "url": "/picnic-lunch-and-learn/static/js/main.86a3f937.chunk.js"
+    "revision": "c15e77465f433f2e6785",
+    "url": "/picnic-lunch-and-learn/static/js/main.0155f5d0.chunk.js"
   },
   {
     "revision": "775d68098dacb35c7514",
     "url": "/picnic-lunch-and-learn/static/js/runtime~main.c86e7e7d.js"
   },
   {
-    "revision": "bb7fabe2473169630184",
+    "revision": "7a95a91c400c247488db",
     "url": "/picnic-lunch-and-learn/static/css/2.d36481ec.chunk.css"
   },
   {
-    "revision": "bb7fabe2473169630184",
-    "url": "/picnic-lunch-and-learn/static/js/2.4a0ac0bd.chunk.js"
+    "revision": "7a95a91c400c247488db",
+    "url": "/picnic-lunch-and-learn/static/js/2.5f1e3ca1.chunk.js"
   },
   {
     "revision": "105f72765c5c77daa17c81dbc83b5046",
@@ -26,10 +26,6 @@ self.__precacheManifest = [
   {
     "revision": "d015fa277d2508bc29b3613fb2279723",
     "url": "/picnic-lunch-and-learn/static/media/banner.d015fa27.jpg"
-  },
-  {
-    "revision": "987b84570ea69ee660455b8d5e91f5f1",
-    "url": "/picnic-lunch-and-learn/static/media/roboto-latin-100.987b8457.woff2"
   },
   {
     "revision": "e9dbbe8a693dd275c16d32feb101f1c1",
@@ -44,28 +40,32 @@ self.__precacheManifest = [
     "url": "/picnic-lunch-and-learn/static/media/roboto-latin-100italic.d704bb3d.woff"
   },
   {
-    "revision": "55536c8e9e9a532651e3cf374f290ea3",
-    "url": "/picnic-lunch-and-learn/static/media/roboto-latin-300.55536c8e.woff2"
+    "revision": "987b84570ea69ee660455b8d5e91f5f1",
+    "url": "/picnic-lunch-and-learn/static/media/roboto-latin-100.987b8457.woff2"
   },
   {
     "revision": "a1471d1d6431c893582a5f6a250db3f9",
     "url": "/picnic-lunch-and-learn/static/media/roboto-latin-300.a1471d1d.woff"
   },
   {
-    "revision": "5d4aeb4e5f5ef754e307d7ffaef688bd",
-    "url": "/picnic-lunch-and-learn/static/media/roboto-latin-400.5d4aeb4e.woff2"
-  },
-  {
     "revision": "d69924b98acd849cdeba9fbff3f88ea6",
     "url": "/picnic-lunch-and-learn/static/media/roboto-latin-300italic.d69924b9.woff2"
   },
   {
-    "revision": "bafb105baeb22d965c70fe52ba6b49d9",
-    "url": "/picnic-lunch-and-learn/static/media/roboto-latin-400.bafb105b.woff"
-  },
-  {
     "revision": "210a7c781f5a354a0e4985656ab456d9",
     "url": "/picnic-lunch-and-learn/static/media/roboto-latin-300italic.210a7c78.woff"
+  },
+  {
+    "revision": "5d4aeb4e5f5ef754e307d7ffaef688bd",
+    "url": "/picnic-lunch-and-learn/static/media/roboto-latin-400.5d4aeb4e.woff2"
+  },
+  {
+    "revision": "55536c8e9e9a532651e3cf374f290ea3",
+    "url": "/picnic-lunch-and-learn/static/media/roboto-latin-300.55536c8e.woff2"
+  },
+  {
+    "revision": "bafb105baeb22d965c70fe52ba6b49d9",
+    "url": "/picnic-lunch-and-learn/static/media/roboto-latin-400.bafb105b.woff"
   },
   {
     "revision": "d8bcbe724fd6f4ba44d0ee6a2675890f",
@@ -142,6 +142,10 @@ self.__precacheManifest = [
   {
     "revision": "b684b3b9997794c4931e62498bac363a",
     "url": "/picnic-lunch-and-learn/static/media/10-1-2023.b684b3b9.md"
+  },
+  {
+    "revision": "1f82fbfc608d4b8d31ee3491c3fb024b",
+    "url": "/picnic-lunch-and-learn/static/media/10-10-2023.1f82fbfc.md"
   },
   {
     "revision": "757aa5fa252f8893a5a30c8c8dbf8009",
@@ -376,7 +380,7 @@ self.__precacheManifest = [
     "url": "/picnic-lunch-and-learn/static/media/8-2-2022.ef1151b5.md"
   },
   {
-    "revision": "4c62ac4383b6c6afd2f3c1883fb42a1b",
+    "revision": "280534d9294e9fe8f050846046477807",
     "url": "/picnic-lunch-and-learn/index.html"
   }
 ];
