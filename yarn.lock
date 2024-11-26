@@ -7474,9 +7474,9 @@ path-key@^2.0.0, path-key@^2.0.1:
   integrity sha1-QRyttXTFoUDTpLGRDUDYDMn0C0A=
 
 path-parse@^1.0.5, path-parse@^1.0.6:
-  version "1.0.6"
-  resolved "https://nexus.global.picnicinternational.com/repository/npm-public/path-parse/-/path-parse-1.0.6.tgz#d62dbb5679405d72c4737ec58600e9ddcf06d24c"
-  integrity sha512-GSmOT2EbHrINBf9SR7CDELwlJ8AENk3Qn7OikK4nFYAu3Ote2+JYNVvkpAEQm3/TLNEJFD/xZJjzyxg3KBWOzw==
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/path-parse/-/path-parse-1.0.7.tgz#fbc114b60ca42b30d9daf5858e4bd68bbedb6735"
+  integrity sha512-LDJzPVEEEPR+y48z93A0Ed0yXb8pAByGWo/k5YYdYgpY2/2EsOsksJrq7lOHxryrVOn1ejG6oAp8ahvOIQD8sw==
 
 path-to-regexp@0.1.7:
   version "0.1.7"
@@ -9007,7 +9007,7 @@ request-promise-native@^1.0.5:
     stealthy-require "^1.1.1"
     tough-cookie "^2.3.3"
 
-request@^2.51.0, request@^2.87.0:
+request@^2.87.0:
   version "2.88.2"
   resolved "https://nexus.global.picnicinternational.com/repository/npm-public/request/-/request-2.88.2.tgz#d73c918731cb5a87da047e207234146f664d12b3"
   integrity sha512-MsvtOrfG9ZcrOwAW+Qi+F6HbD0CWXEh9ou77uOb7FM2WPhwT7smM833PzanhJLsgXjN89Ir6V2PczXNnMpwKhw==
@@ -9988,14 +9988,6 @@ table@^5.0.2:
     lodash "^4.17.14"
     slice-ansi "^2.1.0"
     string-width "^3.0.0"
-
-tabletop@^1.6.2:
-  version "1.6.2"
-  resolved "https://nexus.global.picnicinternational.com/repository/npm-public/tabletop/-/tabletop-1.6.2.tgz#cf946c4fd77dcc7a35b2071ed3484e14b9c0c18b"
-  integrity sha512-9dXB9uPIF6AWN4D2F3fYpE177HPwXzqHZgv89R1zrA3Ztc/uCs8bY2nlHuXUb6FTpu7hAI8xCURKybVNBs5fMA==
-  dependencies:
-    lodash "^4.17.12"
-    request "^2.51.0"
 
 tapable@^1.0.0, tapable@^1.1.0:
   version "1.1.3"
